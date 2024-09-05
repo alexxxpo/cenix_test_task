@@ -81,7 +81,7 @@ import * as fs from 'node:fs/promises';
 
     // Делаем скриншот 
     await body.screenshot({
-      path: `screenshot-${hash}.png`
+      path: `screenshot-${hash}.jpg`
     })
 
     console.log('Succsess!');
